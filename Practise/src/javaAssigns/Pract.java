@@ -23,6 +23,7 @@ public class Pract {
 		default: System.out.println("please enter a valid arthematic operator");
 		
 		}
+		//what is this?
 		jan feb march april may jun july aug sept oct nov dec
 		31 28 31 30 31 30 31 31 30 31 30 31
 		Scanner sc=new Scanner(System.in);
