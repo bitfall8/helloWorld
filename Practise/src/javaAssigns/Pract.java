@@ -54,13 +54,27 @@ public class Pract {
 		System.out.println(rev);
 */
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
+		int a;
+//		b=sc.nextInt();
+//		c=sc.nextInt();
+/*
 		for(int i=1;i<=a;i++) {
 			for(int j=1;j<=i;j++) {
 				System.out.print(j+" ");
 			}
 			System.out.println("");
 		}
+	*/
+		for(int i=0;i<3;i++) {
+			a=sc.nextInt();
+			if(a%10<5) {
+				a=a-(a%10);
+				System.out.println(a);
+			}
+			else {
+				a=a+(10-(a%10));
+				System.out.println(a);
+			}
+		}
 	}
-
 }
