@@ -6,6 +6,7 @@ public class Perimeters {
 		System.out.println(2*pi*a);
 		System.out.println("this is a circle");
 	}
+	//kjbjhb
 	static void Perimeters(int a, int b) {
 		System.out.println(a*b);
 		System.out.println("this is a rectangle");
